@@ -46,6 +46,12 @@
               </h4>
               <p class="text-base text-body-color dark:text-gray-300">ajmaleyetii@gmail.com</p>
             </div>
+            <div class="w-full">
+              <h4 class="font-bold text-dark dark:text-gray-200 text-xl mb-1">
+                WhatsApp
+              </h4>
+              <p class="text-base text-body-color dark:text-gray-300">+923339652360</p>
+            </div>
           </div>
         </div>
       </div>
