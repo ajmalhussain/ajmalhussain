@@ -68,7 +68,7 @@
                  "
             >
             <svg
-  class="w-6 h-6 text-green-400 fill-current"
+  class="w-8 h-8 text-green-400 fill-current"
   xmlns="http://www.w3.org/2000/svg"
   viewBox="0 0 448 512">
   <path
