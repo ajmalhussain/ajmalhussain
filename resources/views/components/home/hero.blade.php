@@ -8,10 +8,10 @@
             class="text-dark dark:text-gray-200 font-bold text-4xl sm:text-[42px] lg:text-[40px] xl:text-[42px] leading-snug mb-6"
           >
             My Name is Ajmal Hussain. <br/>
-            I am <span class="rounded-md text-amber-600">Consultant / Tutor / Educationist</span>.
+            I make <span class="rounded-md text-amber-600">Websites</span>.
           </h1>
           <p class="text-base mb-8 max-w-[520px]">
-            I am a developer with 15+ years of experience. <br/>
+            I am a software developer with 10+ years of experience. <br/>
             I love sharing my knowledge to others, that's why I created a
             <a
               class="text-primary font-bold no-underline hover:underline underline-offset-2 decoration-2 decoration-primary"
