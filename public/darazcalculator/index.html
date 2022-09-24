@@ -31,19 +31,19 @@
                 </div>
             </div>
             <!-- navbar Manu -->
-            
+
 <nav class="navbar col-12 col-xl-12 col-lg-12 col-md-12 col-sm-12">
     <div class="container">
     <ul class="navbar-nav">
         <li class="nav-item">
-            <a href="index2.html" class="nav-link" id="cal"> Calculator | </a>
+            <a href="index.html" class="nav-link" id="cal"> Calculator | </a>
             <a href="emailform.html" class="nav-link" id="req"> Request a Quote |</a>
             <a href="taxcalculator.html" class="nav-link" id="tax" style="color:black; font-size: 20px;"> TaxCalculator</a>
 
         </li>
     </ul>
     </div>
-</nav>    
+</nav>
 
 
 
@@ -140,9 +140,9 @@
                         <tr>
                             <td>
                                <p style=" margin-bottom: -5px; color: #F85E23">TOTAL EXPENSES:</p>
-                               <input 
+                               <input
                                  type="number"
-                                 style="border: none;outline: none;" 
+                                 style="border: none;outline: none;"
                                  id="expenses"
                                  onkeyup="this.value=this.value.replace(/[^\d \.]/,'')"
                                  >
@@ -151,7 +151,7 @@
                         <tr>
                             <td>
                                 <p style="margin-bottom: -5px; color: #F85E23">TOTAL PROFIT:</p>
-                                <input 
+                                <input
                                  type="number"
                                  style="border: none;outline: none;"
                                  id="profit"
@@ -162,9 +162,9 @@
                         <tr>
                             <td>
                                 <p style="margin-bottom: -5px; color: #F85E23">GROSS MARGIN:</p>
-                               <input 
-                                type="text" 
-                                style="border: none;outline: none; font-weight: bold;" 
+                               <input
+                                type="text"
+                                style="border: none;outline: none; font-weight: bold;"
                                 id="gross_margin"
                                 onkeyup="this.value=this.value.replace(/[^\d \.\%]/,'')"
                                 >
@@ -173,9 +173,9 @@
                         <tr>
                             <td>
                                 <p style="margin-bottom: -5px; color: #F85E23">RETURN ON INVESTMENT:</p>
-                               <input 
-                                type="text" 
-                                style="border: none;outline: none; font-weight: bold;" 
+                               <input
+                                type="text"
+                                style="border: none;outline: none; font-weight: bold;"
                                 id="return_on_investment"
                                 onkeyup="this.value=this.value.replace(/[^\d \.\%]/,'')"
                                 >
@@ -188,9 +188,9 @@
                             <td>
                                 <h5 style="font-weight: bold; background-color: #D4DDD5; padding: 5px;">Expenses drill down</h5>
                                 <p style="margin-bottom: -5px; color: #F85E23">DARAZ COMMISSION:</p>
-                               <input 
+                               <input
                                 type="number"
-                                style="border: none;outline: none;" 
+                                style="border: none;outline: none;"
                                 id="commissions"
                                 onkeyup="this.value=this.value.replace(/[^\d \.]/,'')"
                                 >
@@ -199,9 +199,9 @@
                         <tr>
                             <td>
                                 <p style="margin-bottom: -5px; color: #F85E23">FLYER CHARGES:</p>
-                               <input 
-                                type="number" 
-                                style="border: none;outline: none;" 
+                               <input
+                                type="number"
+                                style="border: none;outline: none;"
                                 id="flyer"
                                 onkeyup="this.value=this.value.replace(/[^\d \.]/,'')"
                                 >
@@ -210,9 +210,9 @@
                         <tr>
                             <td>
                                 <p style="margin-bottom: -5px; color: #F85E23">VAT:</p>
-                               <input 
-                                type="number" 
-                                style="border: none;outline: none;" 
+                               <input
+                                type="number"
+                                style="border: none;outline: none;"
                                 id="vat"
                                 onkeyup="this.value=this.value.replace(/[^\d \.]/,'')"
                                 >
@@ -221,9 +221,9 @@
                         <tr>
                             <td>
                                 <p style="margin-bottom: -5px; color: #F85E23">TOTAL:</p>
-                               <input 
-                                type="number" 
-                                style="border: none;outline: none;" 
+                               <input
+                                type="number"
+                                style="border: none;outline: none;"
                                 id="total"
                                 onkeyup="this.value=this.value.replace(/[^\d \.]/,'')"
                                 >
@@ -253,9 +253,9 @@
 
    // var finalExpenses = Number () == (finalTotal);
    var finalCommission = Number (retail) * (commission_per/100);
-    $('#commissions').val(finalCommission); 
+    $('#commissions').val(finalCommission);
 
-    
+
    var finalFlyer = Number (380/50);
     $('#flyer').val(Math.round(finalFlyer));
 
@@ -264,20 +264,20 @@
 
   var finalTotal = Number (finalCommission) + (finalFlyer) + (finalVat) + (print)  + (payment);
     $('#total').val(Math.round(finalTotal));
- 
+
   var finalExpenses =Number (finalCommission) + (finalFlyer) + (finalVat) + (print)  + (payment);
-    $('#expenses').val(Math.round(finalTotal)); 
+    $('#expenses').val(Math.round(finalTotal));
 
     var finalProfit = Number (retail) - (wholesale) - (finalExpenses);
     $('#profit').val(Math.round(finalProfit));
 
      var finalGrossMargin = Number (finalProfit)/(retail/100);
     $('#gross_margin').val(Math.round(finalGrossMargin)+" %");
-   
+
 
     var finalreturnOnInvestment = Number (finalProfit)/(wholesale/100);
     $('#return_on_investment').val(Math.round(finalreturnOnInvestment)+" %");
- 
+
   }
     </script>
 </body>
