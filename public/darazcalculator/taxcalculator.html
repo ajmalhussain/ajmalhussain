@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <!-- Bootstrap CSS -->
+        <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+            crossorigin="anonymous"
+        >
+        <title>DARAZ PROFIT CALCULATOR</title>
+
+    </head>
+    <body>
+        <div class="container">
+            <!-- Content here -->
+            <div class="row">
+                <div class="col-12 col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                    <div class="header">
+                        <h2 class="head" style="font-family: arial;font-weight: bold;display: inline-block;">
+                            DARAZ PROFIT
+                            <br>
+                            CALCULATOR
+                        </h2>
+                         <p class="easy" style="color: white;">EASY STEPS TO FOLLOW</p>
+                         <img class="img" src="img/3.png" width="200px" style="margin-right: 898px;margin-top: -172px;">
+                    </div>
+                </div>
+            </div>
+            <!-- navbar Manu -->
+            
+<nav class="navbar col-12 col-xl-12 col-lg-12 col-md-12 col-sm-12">
+    <div class="container">
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a href="index2.html" class="nav-link" id="cal" style="color:black;"> Calculator | </a>
+            <a href="emailform.html" class="nav-link" id="req"> Request a Quote |</a>
+            <a href="taxcalculator.html" class="nav-link" id="tax_t"  style="color:white; font-size: 20px"> TaxCalculator</a>
+
+        </li>
+    </ul>
+    </div>
+</nav>    
+    </div>
+        </div>  
+         <div>
+                <div class="col-8" id="right_side_tax" class="taxes">
+                    <br>
+                    <table style="font-size: 24px; margin-left:150px; margin-top:50px">
+                        <tr>
+                            <td>
+                               
+                               <input 
+                                 type="number"
+                                 placeholder="Your Salary" 
+                                 id="Ysalary"
+                                 onkeyup="this.value=this.value.replace(/[^\d \.]/,'')"
+                                 onblur="getAmount()"
+                                 >
+                            </td>
+                        </tr>
+                         <td>&nbsp;</td>
+                        <tr>
+                            <td>
+                                <p style="margin-bottom: 0px; color: #F85E23">Monthly Income:</p>
+                                <input 
+                                 type="number"
+                                 style="border: none;outline: none;"
+                                 id="monthly_income"
+                                 onkeyup="this.value=this.value.replace(/[^\d \.]/,'')"
+                                 >
+                            </td>
+                        </tr>
+                           <td>&nbsp;</td>
+                        <tr>
+                            <td>
+                                <p style="margin-bottom: 0px; color: #F85E23">Monthly Tax:</p>
+                               <input 
+                                type="text" 
+                                style="border: none;outline: none; font-weight: bold;" 
+                                id="monthly_tax"
+                                onkeyup="this.value=this.value.replace(/[^\d \.\%]/,'')"
+                                >
+                            </td>
+                        </tr>
+                         <td>&nbsp;</td>
+                        <tr>
+                            <td>
+                                <p style="margin-bottom: 0px; color: #F85E23">Salary After Tax:</p>
+                               <input 
+                                type="text" 
+                                style="border: none;outline: none; font-weight: bold;" 
+                                id="salary_after_tax"
+                                onkeyup="this.value=this.value.replace(/[^\d \.\%]/,'')"
+                                >
+                            </td>
+                        </tr>
+                         <td>&nbsp;</td>
+                        <tr>
+                            <td>
+                                <p style="margin-bottom: 0px; color: #F85E23">Yearly Income:</p>
+                               <input 
+                                type="text" 
+                                style="border: none;outline: none; font-weight: bold;" 
+                                id="yearly_income"
+                                onkeyup="this.value=this.value.replace(/[^\d \.\%]/,'')"
+                                >
+                            </td>
+                        </tr>
+                         <td>&nbsp;</td>
+                         <tr>
+                            <td>
+                                <p style="margin-bottom: 0px; color: #F85E23">Yearly Income After Tax:</p>
+                               <input 
+                                type="text" 
+                                style="border: none;outline: none; font-weight: bold;" 
+                                id="yearly_income_after_tax"
+                                onkeyup="this.value=this.value.replace(/[^\d \.\%]/,'')"
+                                >
+                            </td>
+                        </tr>
+                         <td>&nbsp;</td>
+                    </table>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--   <script src="style.js"></script>
+
+ -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script>
+  function getAmount(){
+    var wholesale = Number($('#wholesale').val());
+    var retail = Number($('#retail').val());
+    var shipment =Number($('#shipment').val());
+    var commission_per =Number($('#commission_per').val());
+    var print = Number($('#print').val());
+    var payment =Number($('#payment').val());
+
+   // var finalExpenses = Number () == (finalTotal);
+   var finalCommission = Number (retail) * (commission_per/100);
+    $('#commissions').val(finalCommission); 
+
+    
+   var finalFlyer = Number (380/50);
+    $('#flyer').val(Math.round(finalFlyer));
+
+   var finalVat = Number (shipment) * (17/100);
+    $('#vat').val(Math.round(finalVat));
+
+  var finalTotal = Number (finalCommission) + (finalFlyer) + (finalVat) + (print)  + (payment);
+    $('#total').val(Math.round(finalTotal));
+ 
+  var finalExpenses =Number (finalCommission) + (finalFlyer) + (finalVat) + (print)  + (payment);
+    $('#expenses').val(Math.round(finalTotal)); 
+
+    var finalProfit = Number (retail) - (wholesale) - (finalExpenses);
+    $('#profit').val(Math.round(finalProfit));
+
+     var finalGrossMargin = Number (finalProfit)/(retail/100);
+    $('#gross_margin').val(Math.round(finalGrossMargin)+" %");
+   
+
+    var finalreturnOnInvestment = Number (finalProfit)/(wholesale/100);
+    $('#return_on_investment').val(Math.round(finalreturnOnInvestment)+" %");
+ 
+  }
+    </script>
+</body>
+</html>
