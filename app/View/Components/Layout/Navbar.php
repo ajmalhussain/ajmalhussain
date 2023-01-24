@@ -21,6 +21,7 @@ class Navbar extends Component
             ['label' => 'Coding Tutorials', 'href' => '#tutorials'],
 //            ['label' => 'Testimonials', 'href' => '#testimonials' ],
             ['label' => 'Contact', 'href' => '#contact'],
+            ['label' => 'Daraz Calculator', 'href' => '/darazcalculator'],
         ];
     }
 
