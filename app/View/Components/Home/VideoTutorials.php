@@ -27,9 +27,9 @@ class VideoTutorials extends Component
                 'description' => 'You will build a wordpres website, which includes Home, About Us, Contact Us pages. Also you will learn how to deliver it to client.'
             ],
             [
-                'videoId' => 'Pcng2gqNrVs',
-                'title' => 'Lear How to process order on Daraz',
-                'description' => 'Video playlist which will show you how to start working on Daraz Ecommerce Website. This will help you understand how easily you can start your business.'
+                'videoId' => 'u93mcRH1H8k',
+                'title' => 'Excel Tips and Tricks',
+                'description' => 'Video playlist which will show you tips and tricks of Microsoft Excel. This will help you understand how easily you can start working on excel with more power.'
             ],
         ];
     }
